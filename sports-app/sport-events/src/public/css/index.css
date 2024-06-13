@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.5) url(../images/uefa-champions-league-ucl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-blend-mode: darken;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div.content {
+    color: white;
+    text-align: center;
+}
+
+.content h1.title {
+    text-transform: uppercase;
+    font-family: 'LXGW WenKai Mono TC', sans-serif;
+    font-size: 6em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.see-events, .other {
+    width: 10rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 8px 35px;
+}
+
+.see-events {
+    margin-right: 15px;
+    background-color: #cc0036;
+    border: 2px solid #940128;
+    border-radius: 5px;
+    color: white;
+}
+
+.other {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #940128;
+    border-radius: 5px;
+}

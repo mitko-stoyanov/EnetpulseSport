@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.match-results {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.match-results th, .match-results td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.match-results th {
+    background-color: #f2f2f2;
+}
+
+.match-results tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.match-results tbody tr:hover {
+    background-color: #ddd;
+}
+
+.match-results img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+h1.title {
+    text-transform: uppercase;
+    font-family: 'LXGW WenKai Mono TC', sans-serif;
+    font-size: 6em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 20px;
+}
+
+.back-button, .other {
+    width: 10rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0px 35px;
+    text-align: center;
+}
+
+.back-button {
+    margin-right: 15px;
+    background-color: #cc0036;
+    border: 2px solid #940128;
+    border-radius: 5px;
+    color: white;
+}
+
+.other {
+    background-color: transparent;
+    color: black;
+    border: 2px solid #940128;
+    border-radius: 5px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    cursor: pointer;
+}
